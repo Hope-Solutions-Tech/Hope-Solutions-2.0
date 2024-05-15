@@ -1,0 +1,52 @@
+.hope-header {
+    height: 72px;
+    width: 100%;
+    padding: 0 50px;
+    margin: auto;
+    display: flex;
+    background-color: #121212;
+    color: white;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+
+    div {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        
+        
+        img {
+            width: 50px;
+        }
+    }
+
+
+    nav {
+        display: flex;
+        align-items: center;
+
+        ul {
+            display: flex;
+            list-style: none;
+            gap: 40px;
+            li {
+                a {
+                    color: white;
+                    text-decoration: none;
+                    padding: 10px 30px;
+                    border: transparent 1px solid;
+                    transition: border-color 0.3s ease;
+                    border-radius: 50px;
+                }
+                :hover {
+                    border: white 1px solid;
+                }
+            }
+
+        }
+    }
+
+    
+    
+}
