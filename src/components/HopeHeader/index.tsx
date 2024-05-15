@@ -6,7 +6,7 @@ const HopeHeader = () => {
     useEffect(() => {
         const header = document.querySelector('.hope-header')
         window.addEventListener('scroll', () => {
-            if (window.scrollY > 72) {
+            if (window.scrollY > window.innerHeight - 72) {
                 header?.classList.add('hope-header-scrolled')
             } else {
                 header?.classList.remove('hope-header-scrolled')
@@ -16,10 +16,10 @@ const HopeHeader = () => {
     })
     return (
         <header className='hope-header'>
-            <div >
+            <a href='/'>
                 <img src={logoHeader} alt="" />
                 <h2>Hope Solutions</h2>
-            </div>
+            </a>
             <nav>
                 <ul>
                     <li>

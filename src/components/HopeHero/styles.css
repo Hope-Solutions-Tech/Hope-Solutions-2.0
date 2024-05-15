@@ -11,8 +11,9 @@
         justify-content: center;
         flex-direction: column;
         p {
-            color: #ffffff;
+            color: #f5f5f5;
             font-size: 100px;
+            font-family: 'Montserrat';
             span {
                 font-weight: bold;
             }

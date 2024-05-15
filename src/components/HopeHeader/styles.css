@@ -1,22 +1,52 @@
 .hope-header {
+    font-family: 'Montserrat';
     height: 72px;
     width: 100%;
     padding: 0 50px;
     margin: auto;
     display: flex;
     background-color: #121212;
-    color: white;
+    color: #f5f5f5;
     justify-content: space-between;
     position: fixed;
     top: 0;
+    transition: .3s ease;
 
-    div {
+    &.hope-header-scrolled {
+        height: 60px;
+        a {
+            h2 {
+                transform: scaleX(0);
+            }
+            img {
+                transform: scale(.9);
+            }
+        }
+        nav {
+            ul {
+                li {
+                    a {
+                        font-size: 14px;
+
+                    }
+                }
+            }
+        }
+    }
+
+    a {
         display: flex;
         align-items: center;
         gap: 15px;
         
+        h2 {
+            transform-origin: left;
+            transition: transform 0.2s ease;
+        }
         
         img {
+            transform-origin: left;
+            transition: transform 0.2s ease;
             width: 50px;
         }
     }
@@ -32,15 +62,15 @@
             gap: 40px;
             li {
                 a {
-                    color: white;
+                    color: #f5f5f5;
                     text-decoration: none;
                     padding: 10px 30px;
                     border: transparent 1px solid;
-                    transition: border-color 0.3s ease;
+                    transition: all 0.3s ease;
                     border-radius: 50px;
                 }
                 :hover {
-                    border: white 1px solid;
+                    border: #f5f5f5 1px solid;
                 }
             }
 
