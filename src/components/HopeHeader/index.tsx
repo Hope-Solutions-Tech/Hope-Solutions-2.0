@@ -12,19 +12,15 @@ const HopeHeader = () => {
                 header?.classList.remove('hope-header-scrolled')
             }
         })
-    
     })
     return (
         <header className='hope-header'>
             <a href='/'>
                 <img src={logoHeader} alt="" />
-                <h2>Hope Solutions</h2>
+                <h2>Hope</h2>
             </a>
             <nav>
                 <ul>
-                    <li>
-                        <a href="">Sobre nós</a>
-                    </li>
                     <li>
                         <a href="">Produtos</a>
                     </li>

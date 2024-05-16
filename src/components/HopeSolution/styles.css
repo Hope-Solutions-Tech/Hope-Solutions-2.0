@@ -1,13 +1,14 @@
 .hope-solution-section {
     background-color: #fefefe;
     width: 100%;
-    height: 100vh;
     display: flex;
     font-family: 'Montserrat';
-    div {
-        display: flex;
-        padding: 100px 50px;
-        flex-direction: column;
+    .stickyContainer {
+        padding: 200px 50px;
+        width: 50%;
+        height: 100vh;
+        position: sticky;
+        top: 0; /* Define a posição de fixação no topo */
         h1 {
             color: #292929;
             font-size: 80px;
@@ -16,6 +17,17 @@
             width: 80px;
             height: 80px;
             border-radius: 50%;
+        }
+    }
+    .sliderContainer {
+        padding: 100px 50px;
+        display: flex;
+        flex-direction: column;
+        
+        width: 50%;
+        height: auto;
+        &:last-child {
+            margin-bottom: 50vh;
         }
     }
 }

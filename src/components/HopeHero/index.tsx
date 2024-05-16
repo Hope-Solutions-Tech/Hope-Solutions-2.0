@@ -4,9 +4,12 @@ const HopeHero = () => {
     return (
         <section className='hope-banner-section'>
             <div>
-                <p>Do chamado à <span>CHEGADA</span></p>
+                <p>Do chamado à <span>chegada</span></p>
                 <p>cuidando de</p>
-                <p><span>CADA SEGUNDO</span></p>
+                <p><span>cada segundo</span></p>
+                <p className='aboutUs'>
+                    A Hope Solutions nasce com o propósito de auxiliar médicos e socorristas em tomadas de decisões durante uma emergência, possibilitando assim, produtividade e agilidade durante uma ocorrência médica que necessite de encaminhamento do paciente ao hospital, utilizando serviços de ambulância.
+                </p>
             </div>
         </section>
     )
