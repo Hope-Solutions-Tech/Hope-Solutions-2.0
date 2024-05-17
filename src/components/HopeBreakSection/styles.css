@@ -75,24 +75,13 @@ main {
 	text-align: center;
 	font-weight: 300;
 	font-size: clamp(1.5rem, 15vw, 6.5rem);
+	font-family: 'ClashRegular';
+	
 }
 
-.content__title--top {
-	align-items: start;
-}
-
-.content__title--bottom {
-	align-items: end;
-}
-
-.content__title--left {
-	justify-items: start;
-	text-align: left;
-}
-
-.content__title--right {
-	justify-items: end;
-	text-align: right;
+.content ::selection {
+	background: #fff;
+	color: #000;
 }
 
 .grid {

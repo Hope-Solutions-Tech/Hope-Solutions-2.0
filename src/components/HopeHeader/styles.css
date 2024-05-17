@@ -73,20 +73,23 @@
                 a {
                     color: #f5f5f5;
                     text-decoration: none;
-                    padding: 10px 30px;
+                    padding: 10px 40px;
                     border: transparent 1px solid;
                     transition: all 0.3s ease;
                     border-radius: 50px;
                 }
                 :hover {
                     border: #f5f5f5 1px solid;
-                    background-color: #121212;
                 }
             }
 
         }
     }
-
+    .contactLi {
+        border: #f5f5f5 1px solid;
+        border-radius: 50px;
+        
+    }
     
     
 }

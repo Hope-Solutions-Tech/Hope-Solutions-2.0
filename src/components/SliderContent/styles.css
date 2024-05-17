@@ -4,8 +4,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    opacity: .3;
-    transition: opacity .5s ease;
+    opacity: 0.1;
+    transition: opacity .3s ease;
     &.visible {
         opacity: 1;
     }

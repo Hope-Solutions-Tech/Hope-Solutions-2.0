@@ -24,7 +24,7 @@ const HopeHeader = () => {
                     <li>
                         <a href="">Produtos</a>
                     </li>
-                    <li>
+                    <li className='contactLi'>
                         <a href="">Contato</a>
                     </li>
                 </ul>

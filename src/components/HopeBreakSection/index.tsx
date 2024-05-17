@@ -131,21 +131,8 @@ const HopeBreakSection = () => {
 						<div className="grid__item"><div className="grid__item-inner" style={{backgroundImage: `url(${break1})`}}></div></div>
 						<div className="grid__item"><div className="grid__item-inner" style={{backgroundImage: `url(${break1})`}}></div></div>
 						<div className="grid__item"><div className="grid__item-inner" style={{backgroundImage: `url(${break1})`}}></div></div>
-						<div className="grid__item"><div className="grid__item-inner" style={{backgroundImage: `url(${break1})`}}></div></div>
-						<div className="grid__item"><div className="grid__item-inner" style={{backgroundImage: `url(${break1})`}}></div></div>
-						<div className="grid__item"><div className="grid__item-inner" style={{backgroundImage: `url(${break1})`}}></div></div>
-						<div className="grid__item"><div className="grid__item-inner" style={{backgroundImage: `url(${break1})`}}></div></div>
-						<div className="grid__item"><div className="grid__item-inner" style={{backgroundImage: `url(${break1})`}}></div></div>
-						<div className="grid__item"><div className="grid__item-inner" style={{backgroundImage: `url(${break1})`}}></div></div>
-						<div className="grid__item"><div className="grid__item-inner" style={{backgroundImage: `url(${break1})`}}></div></div>
-						<div className="grid__item"><div className="grid__item-inner" style={{backgroundImage: `url(${break1})`}}></div></div>
-						<div className="grid__item"><div className="grid__item-inner" style={{backgroundImage: `url(${break1})`}}></div></div>
-						<div className="grid__item"><div className="grid__item-inner" style={{backgroundImage: `url(${break1})`}}></div></div>
-						<div className="grid__item"><div className="grid__item-inner" style={{backgroundImage: `url(${break1})`}}></div></div>
-						<div className="grid__item"><div className="grid__item-inner" style={{backgroundImage: `url(${break1})`}}></div></div>
-						<div className="grid__item"><div className="grid__item-inner" style={{backgroundImage: `url(${break1})`}}></div></div>
-						<div className="grid__item"><div className="grid__item-inner" style={{backgroundImage: `url(${break1})`}}></div></div>
-						<div className="grid__item"><div className="grid__item-inner" style={{backgroundImage: `url(${break1})`}}></div></div>
+						
+						
 					</div>
 				</div>
 				<h3 className="content__title">Conectando vidas à<br/>assistência em tempo real.</h3>
