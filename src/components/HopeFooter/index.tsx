@@ -44,7 +44,9 @@ const HopeFooter = () => {
                     </div>
                 </div>
             </div>
-            
+            <p className='footerCopyright'>
+                © Copyright 2024 - HopeSolutions - Todos os direitos reservados - All rights reserved.
+            </p>
         </footer>
     )
 }

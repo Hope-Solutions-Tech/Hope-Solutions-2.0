@@ -1,6 +1,6 @@
 footer {
     background-color: var(--header-background);
-    padding: 2rem;
+    padding: 50px;
     font-family: 'Montserrat';
     .footerHope {
         border-radius: 20px;
@@ -54,5 +54,11 @@ footer {
         img {
             width: 350px;
         }
+    }
+    .footerCopyright {
+        color: #CECECE;
+        text-align: center;
+        padding-top: 20px;
+        font-size: 14px;
     }
 }

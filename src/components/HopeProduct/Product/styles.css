@@ -1,0 +1,9 @@
+.listProduct {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    img {
+        width: 40px;
+        height: 40px;
+    }
+}

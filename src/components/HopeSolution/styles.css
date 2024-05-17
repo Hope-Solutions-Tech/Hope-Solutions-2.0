@@ -4,7 +4,7 @@
     display: flex;
     font-family: 'Montserrat';
     .stickyContainer {
-        padding: 200px 50px;
+        padding: 200px 100px;
         width: 50%;
         height: 100vh;
         position: sticky;
@@ -20,7 +20,7 @@
         }
     }
     .sliderContainer {
-        padding: 100px 50px;
+        padding: 100px 100px;
         display: flex;
         flex-direction: column;
         

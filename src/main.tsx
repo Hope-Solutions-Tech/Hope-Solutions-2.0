@@ -6,6 +6,7 @@ import HopeHero from './components/HopeHero/index.tsx'
 import HopeSolution from './components/HopeSolution/index.tsx'
 import HopeBreakSection from './components/HopeBreakSection/index.tsx'
 import HopeFooter from './components/HopeFooter/index.tsx'
+import HopeProduct from './components/HopeProduct/index.tsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
@@ -14,6 +15,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     <HopeHero />
     <HopeSolution />
     <HopeBreakSection />
+    <HopeProduct />
     <HopeFooter />
   </React.StrictMode>,
 )

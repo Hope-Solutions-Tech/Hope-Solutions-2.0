@@ -1,0 +1,30 @@
+.productSection {
+    padding-block: 100px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 100px;
+    .productSectionTitle {
+        text-align: center;
+        font-size: 80px;
+        font-family: 'ClashRegular';
+        color: #002021;
+    }
+    .productContent {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-inline: 100px;
+    }
+
+    .productsDiv {
+        width: 40%;
+        .productsUl {
+            display: flex;
+            flex-direction: column;
+            gap: 60px;
+        }
+    }
+}
+

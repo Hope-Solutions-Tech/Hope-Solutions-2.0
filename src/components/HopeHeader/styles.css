@@ -9,16 +9,16 @@
     justify-content: space-between;
     position: fixed;
     top: 0;
-    transition: .3s ease;
+    transition: .5s ease;
     z-index: 99;
     background: rgba(0, 0, 0, 0.075);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(12.6px);
-    -webkit-backdrop-filter: blur(12.6px);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
     border: 1px solid rgba(0, 0, 0, 0.03);
 
     &.hope-header-scrolled {
-        background: rgba(0, 0, 0, 0.87);
+        background: rgba(0, 0, 0, 0.904);
 
         height: 60px;
         a {
