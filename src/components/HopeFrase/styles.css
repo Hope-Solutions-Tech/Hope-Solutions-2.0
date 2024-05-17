@@ -1,0 +1,32 @@
+.fraseSection {
+    height: 70vh;
+    padding-block: 80px;
+
+    .fraseResumo {
+        text-align: center;
+        font-size: 30px;
+        color: #696969;
+    }
+    .fraseAnimated {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 120px;
+        font-family: 'ClashMedium';
+        padding-inline: 150px;
+        .fraseCinza {
+            opacity: .12;
+        }
+        .fraseVerde {
+            transition: .5s;
+            position: relative;
+            color: #002021;
+            margin-top: -360px;
+            width: 0%;
+            overflow-x: hidden;
+            white-space: nowrap;
+
+        }
+    }
+}

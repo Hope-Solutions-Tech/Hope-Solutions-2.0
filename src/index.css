@@ -87,6 +87,12 @@
     src: local("ClashDisplay"),
       url("./assets/fonts/ClashDisplay-Medium.woff2") format("woff2");
   }
+
+  @font-face {
+    font-family: "ClashMedium"; 
+    src: local("ClashDisplay"),
+      url("./assets/fonts/ClashDisplay-Regular.woff2") format("woff2");
+  }
   
   @font-face {
     font-family: "ClashSemiBold"; 

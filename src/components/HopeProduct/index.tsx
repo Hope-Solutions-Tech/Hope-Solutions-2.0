@@ -32,7 +32,7 @@ const HopeProduct = () => {
                         </Product>
                     </ul>
                 </div>
-                <div>
+                <div className='productsImg'>
                     <img src={mockBuddy} alt="" />
                 </div>
             </div>
