@@ -66,7 +66,7 @@ footer {
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 767px) {
     footer {
         padding: 20px 20px 16px 20px;
         .footerHope {
@@ -96,7 +96,7 @@ footer {
         }
         .solutionBy {
             font-size: 1.6rem;
-            align-self: center;
+            align-self: start;
             img {
                 width: 200px;
             }

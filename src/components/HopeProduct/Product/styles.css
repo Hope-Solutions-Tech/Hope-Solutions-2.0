@@ -11,7 +11,7 @@
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 767px) {
     .listProduct {
         width: 100%;
         display: flex;

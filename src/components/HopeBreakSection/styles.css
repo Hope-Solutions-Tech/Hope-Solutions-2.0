@@ -146,10 +146,11 @@ main {
 	}
 }
 
-@media (max-width: 500px) {
+@media (max-width: 767px) {
 	.content__title {
-
 		font-size: 5rem;
-
+	}
+	.grid {
+		height: 100vh;
 	}
 }

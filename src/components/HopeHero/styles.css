@@ -53,7 +53,7 @@
     color: #002021;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 767px) {
     .hope-banner-section {
         flex-direction: column;
         justify-content: center;

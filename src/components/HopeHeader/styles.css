@@ -93,7 +93,7 @@
         
     }
     
-    @media (max-width: 500px) {
+    @media (max-width: 767px) {
         padding: 0 20px;
         height: 60px;
         &.hope-header-scrolled {

@@ -1,20 +1,15 @@
-.fraseSection {
+/* .fraseSection {
     height: 70vh;
     padding-block: 80px;
     width: 100%;
     max-width: 100vw;
 
-    .fraseResumo {
-        text-align: center;
-        font-size: 3rem;
-        color: #696969;
-    }
+    
     .fraseAnimated {
-        height: 100%;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
-        font-size: 12rem;
+        font-size: 10rem;
         font-family: 'ClashMedium';
         padding-inline: 150px;
         .fraseCinza {
@@ -22,16 +17,16 @@
         }
         .fraseVerde {
             transition: .5s;
-            position: relative;
+            position: absolute;
             color: #002021;
-            margin-top: -360px;
             width: 0%;
             overflow-x: hidden;
             white-space: nowrap;
-
         }
     }
 }
+
+
 
 @media (max-width: 500px) {
     .fraseSection {
@@ -53,4 +48,71 @@
             
         }
     }
+} */
+
+.fraseResumo {
+    text-align: center;
+    font-size: 2rem;
+    color: #696969;
+    margin-bottom: 30px;
 }
+
+.line {
+    position: relative;
+    display: table !important;
+    width: auto !important;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 2px;
+    padding-left: 1px;
+    color: #002021;
+    font-size: 88px;
+    line-height: 80px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 100px;
+    font-family: 'ClashMedium';
+  }
+  
+  .line-mask {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    opacity: 0.8;
+    width: 100%;
+    bottom: -5px;
+    z-index: 2;
+  }
+
+  .hopeFrase{
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  @media screen and (max-width:767px){
+    .line{
+        position: relative;
+        display: table !important;
+        width: auto !important;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 2px;
+        padding-left: 1px;
+        color: #002021;
+        font-size: 22px;
+        font-weight: 700;
+        text-align: center;
+        line-height: 32px;
+        font-family: 'ClashMedium';
+    }
+
+    .hopeFrase{
+        height: 45vh;
+    }
+  }
