@@ -8,7 +8,7 @@ const HopeHero = () => {
         const logo = logoRef.current
         
         
-        const hopeLogo = Kute.fromTo(logo,{draw:'0% 8%'}, {draw:'0% 100%'}, { duration: 7000, repeat: Infinity, yoyo: true, easing: 'easingCubicInOut'});
+        const hopeLogo = Kute.fromTo(logo,{draw:'0% 8%'}, {draw:'0% 100%'}, { duration: 7000, repeat: Infinity, yoyo: true, easing: 'easeInOut'});
         hopeLogo.start();
     })
     return (
