@@ -12,18 +12,30 @@ const HopeHeader = () => {
                 header?.classList.remove('hope-header-scrolled')
             }
         })
+        document.querySelector('.contactLi')?.addEventListener('click', (event) => {
+            event.preventDefault();
+            const targetElement = document.querySelector('#hopeFooter');
+            if (targetElement) {
+                targetElement.scrollIntoView({ behavior: 'smooth'});
+            }
+        });
+        document.querySelector('.hopeHome')?.addEventListener('click', (event) => {
+            event.preventDefault();
+            const targetElement = document.querySelector('#hopeHero');
+            if (targetElement) {
+                targetElement.scrollIntoView({ behavior: 'smooth'});
+            }
+        });
     })
+    
     return (
         <header className='hope-header'>
-            <a href='/'>
+            <a href='' className='hopeHome'>
                 <img src={logoHeader} alt="" />
                 <h2>Hope</h2>
             </a>
             <nav>
                 <ul>
-                    <li>
-                        <a href="">Produtos</a>
-                    </li>
                     <li className='contactLi'>
                         <a href="">Contato</a>
                     </li>

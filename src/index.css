@@ -100,6 +100,21 @@
       url("./assets/fonts/ClashDisplay-Semibold.woff2") format("woff2");
   }
 
+  html {
+    font-size: calc(100vw / 1920 * 10) !important;
+  }
+
+  @media (max-width: 1250px) {
+    html {
+      font-size: calc(100vw / 1250 * 10) !important;
+    }
+  }
+  @media (max-width: 500px) {
+    html {
+      font-size: calc(100vw / 500 * 10) !important;
+    }
+  }
+
   body{
     overflow-x: hidden;
   }

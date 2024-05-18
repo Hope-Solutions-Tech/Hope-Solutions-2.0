@@ -145,3 +145,11 @@ main {
 	    justify-self: end;
 	}
 }
+
+@media (max-width: 500px) {
+	.content__title {
+
+		font-size: 5rem;
+
+	}
+}

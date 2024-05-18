@@ -6,9 +6,9 @@ import telIcon from '../../assets/tel.svg'
 import emailIcon from '../../assets/email.svg'
 
 const HopeFooter = () => {
-
+    
     return (
-        <footer>
+        <footer id='hopeFooter'>
             <div className='footerHope'>
                 <h1>Entre em contato</h1>
                 <div className='footerContent'>

@@ -10,12 +10,36 @@
         opacity: 1;
     }
     h1 {
-        font-size: 50px;
+        font-size: 5rem;
         padding-bottom: 30px;
     }
     p {
-        font-size: 24px;
+        font-size: 2.4rem;
         color: #292929a6;
+    }
+}
+
+@media (max-width: 500px) {
+    .sliderDiv {
+        gap: 10px;
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        opacity: 0.1;
+        transition: opacity .3s ease;
+        text-align: center;
+        &.visible {
+            opacity: 1;
+        }
+        h1 {
+            font-size: 4rem;
+            padding-bottom: 10px;
+        }
+        p {
+            font-size: 2rem;
+            color: #292929a6;
+        }
     }
 }
 

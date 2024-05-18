@@ -2,8 +2,25 @@
     display: flex;
     align-items: center;
     gap: 10px;
+    font-family: 'Montserrat';
+    font-size: 2rem;
+    color: #292929;
     img {
         width: 40px;
         height: 40px;
+    }
+}
+
+@media (max-width: 500px) {
+    .listProduct {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 1.5rem;
+        img {
+            width: 30px;
+            height: 30px;
+        }
     }
 }
