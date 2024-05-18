@@ -33,3 +33,15 @@
 .titleFont{
     font-family: 'ClashBold';
 }
+
+.aomai-p-absolute{
+    position: absolute;
+    right: -16vw;
+    width: 62vw;
+}
+
+
+.aomai-p-absolute img{
+    width: 100%;
+    height: 100%;
+}

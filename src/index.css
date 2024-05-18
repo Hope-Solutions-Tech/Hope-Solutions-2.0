@@ -93,3 +93,24 @@
     src: local("ClashDisplay"),
       url("./assets/fonts/ClashDisplay-Semibold.woff2") format("woff2");
   }
+
+  body{
+    overflow-x: hidden;
+  }
+
+  ::selection
+  {
+    background: #002021;
+    color: #fff;
+  }
+
+  body::-webkit-scrollbar {
+    width: 7px;
+  }
+  body::-webkit-scrollbar-thumb {
+    background: #002021;
+    border-radius: 30px;
+  }
+  body::-webkit-scrollbar-track {
+    background: #fff;
+  }
