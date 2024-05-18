@@ -67,3 +67,29 @@
       --ring: 212.7 26.8% 83.9%;
     }
   }
+
+
+  @font-face {
+    font-family: "ClashLight";   
+    src: local("ClashDisplay"),
+      url("./assets/fonts/ClashDisplay-Light.woff2") format("woff2");
+  }
+  
+  @font-face {
+    font-family: "ClashBold"; 
+    src: local("ClashDisplay"),
+      url("./assets/fonts/ClashDisplay-Bold.woff2") format("woff2");
+  }
+  
+  
+  @font-face {
+    font-family: "ClashRegular"; 
+    src: local("ClashDisplay"),
+      url("./assets/fonts/ClashDisplay-Medium.woff2") format("woff2");
+  }
+  
+  @font-face {
+    font-family: "ClashSemiBold"; 
+    src: local("ClashDisplay"),
+      url("./assets/fonts/ClashDisplay-Semibold.woff2") format("woff2");
+  }

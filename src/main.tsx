@@ -8,7 +8,6 @@ import HopeBreakSection from './components/HopeBreakSection/index.tsx'
 import HopeFooter from './components/HopeFooter/index.tsx'
 
 
-
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <HopeHeader />

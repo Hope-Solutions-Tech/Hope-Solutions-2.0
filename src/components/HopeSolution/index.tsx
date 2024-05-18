@@ -28,7 +28,7 @@ const HopeSolution = () => {
                 <img src={spinningLogo} alt="" ref={imageRef}/>
             </div>
             <div className='sliderContainer'>
-                <SliderContent title='Agilidade'>
+                <SliderContent title='Performance'>
                     Nossa solução atua com excelência em além de diminuir o tempo de uma ocorrência ela torna o tempo mais eficaz.
                 </SliderContent>
                 <SliderContent title='Agilidade'>

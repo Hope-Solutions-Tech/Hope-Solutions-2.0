@@ -4,7 +4,7 @@ const HopeHero = () => {
     return (
         <section className='hope-banner-section'>
             <div>
-                <p>Do chamado à <span>chegada</span></p>
+                <p>Do chamado à <span className='titleFont'>chegada</span></p>
                 <p>cuidando de</p>
                 <p><span>cada segundo</span></p>
                 <p className='aboutUs'>
