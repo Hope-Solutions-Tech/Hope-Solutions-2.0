@@ -28,14 +28,14 @@ const HopeSolution = () => {
                 <img src={spinningLogo} alt="" ref={imageRef}/>
             </div>
             <div className='sliderContainer'>
-                <SliderContent title='Performance'>
-                    Nossa solução atua com excelência em além de diminuir o tempo de uma ocorrência ela torna o tempo mais eficaz.
+                <SliderContent title='Comunicação em Tempo Real'>
+                    O aplicativo possibilita que socorristas enviem informações detalhadas e atualizações em tempo real, incluindo imagens e comentários, diretamente para médicos no hospital, garantindo uma avaliação rápida e precisa da condição do paciente.
                 </SliderContent>
-                <SliderContent title='Agilidade'>
-                    Nossa solução atua com excelência em além de diminuir o tempo de uma ocorrência ela torna o tempo mais eficaz.
+                <SliderContent title='Preparação Antecipada'>
+                    Com a integração de um sistema de geolocalização, o hospital sabe exatamente quando e com qual condição o paciente chegará, permitindo que a equipe médica se prepare antecipadamente e aloque os recursos necessários antes da chegada do paciente.
                 </SliderContent>
-                <SliderContent title='Agilidade'>
-                    Nossa solução atua com excelência em além de diminuir o tempo de uma ocorrência ela torna o tempo mais eficaz.
+                <SliderContent title='Redução de Erros'>
+                    A substituição de registros em papel por uma plataforma digital integrada minimiza o risco de perda ou confusão de informações, assegurando que dados críticos do paciente sejam transmitidos de forma precisa e segura, melhorando a qualidade do atendimento.
                 </SliderContent>
             </div>
         </section>

@@ -16,7 +16,7 @@ const HopeHero = () => {
             <div>
                 <p>Do chamado à <span className='titleFont'>chegada</span> <br/> cuidando de <br/> <span className='titleFont'>cada segundo</span> </p>
                 <p className='aboutUs'>
-                    A Hope Solutions nasce com o propósito de auxiliar médicos e socorristas em tomadas de decisões durante uma emergência, possibilitando assim, produtividade e agilidade durante uma ocorrência médica que necessite de encaminhamento do paciente ao hospital, utilizando serviços de ambulância.
+                    A Vitse  nasce com o propósito de auxiliar médicos e socorristas em tomadas de decisões durante  uma emergência, possibilitando assim, produtividade, agilidade e confiança durante uma ocorrência médica que  necessite de encaminhamento do paciente ao hospital por meio de uma ambulância. A Vitse veio para mudar o jeito de como salvamos vidas!
                 </p>
             </div>
             <div className="aomai-p-absolute">

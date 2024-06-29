@@ -10,7 +10,7 @@
         flex-direction: row;
         justify-content: center;
         font-size: 10rem;
-        font-family: 'ClashMedium';
+        font-family: '';
         padding-inline: 150px;
         .fraseCinza {
             opacity: .12;
@@ -71,7 +71,7 @@
     font-weight: 700;
     text-align: center;
     line-height: 100px;
-    font-family: 'ClashMedium';
+    font-family: 'Satoshi-Variable';
   }
   
   .line-mask {
@@ -109,7 +109,7 @@
         font-weight: 700;
         text-align: center;
         line-height: 32px;
-        font-family: 'ClashMedium';
+        font-family: 'Satoshi-Variable';
     }
 
     .hopeFrase{

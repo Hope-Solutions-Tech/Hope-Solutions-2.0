@@ -32,7 +32,7 @@ const HopeHeader = () => {
         <header className='hope-header'>
             <a href='' className='hopeHome'>
                 <img src={logoHeader} alt="" />
-                <h2>Hope</h2>
+                <h2>Vitse</h2>
             </a>
             <nav>
                 <ul>
