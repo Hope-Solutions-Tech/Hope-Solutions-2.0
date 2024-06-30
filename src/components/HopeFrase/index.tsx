@@ -1,9 +1,11 @@
 import { useEffect } from 'react';
 import './styles.css';
-
-// import gsap from 'gsap';
+import gsap from 'gsap';
+import ScrollTrigger from 'gsap/ScrollTrigger';
 
 const HopeFrase = () => {
+
+    gsap.registerPlugin(ScrollTrigger);
     
     useEffect(() => {
         
@@ -13,32 +15,47 @@ const HopeFrase = () => {
         if (!section) return;
         if (!rectangle) return;
 
-        const sectionTop = section.getBoundingClientRect().top + window.scrollY;
-        const sectionHeight = section.offsetHeight;
+        // const sectionTop = section.getBoundingClientRect().top + window.scrollY;
+        // const sectionHeight = section.offsetHeight;
 
-        window.addEventListener("scroll", () => {
-            const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-
-            // Se o scroll atual está antes da seção, definir a largura como 100%
-            if (scrollTop < sectionTop - window.innerHeight) {
-                rectangle.style.width = '100%';
-                return;
+        gsap.to(rectangle, {
+            
+            scrollTrigger: {
+                trigger: section,
+                start: 'top center',
+                end: 'bottom center',
+                scrub: true,
+                onUpdate: (self) => {
+                    const width = (1 - self.progress) * 100;
+                    console.log(width);
+                    gsap.set(rectangle, {width: `${width}%`} )
+                }
             }
+        })
 
-            // Se o scroll atual está depois da seção, definir a largura como 0%
-            if (scrollTop > sectionTop + sectionHeight) {
-                rectangle.style.width = '0%';
-                return;
-            }
+        // window.addEventListener("scroll", () => {
+        //     const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
 
-            // Calcular a porcentagem do scroll dentro da seção, invertida
-            const scrollPercentage = .7 - (scrollTop - (sectionTop - window.innerHeight)) / (sectionHeight + window.innerHeight);
+        //     // Se o scroll atual está antes da seção, definir a largura como 100%
+        //     if (scrollTop < sectionTop - window.innerHeight) {
+        //         rectangle.style.width = '100%';
+        //         return;
+        //     }
 
-            const width = Math.min(100, Math.max(0, scrollPercentage * 100));
-            console.log(width);
+        //     // Se o scroll atual está depois da seção, definir a largura como 0%
+        //     if (scrollTop > sectionTop + sectionHeight) {
+        //         rectangle.style.width = '0%';
+        //         return;
+        //     }
 
-            rectangle.style.width = `${width}%`;
-        });
+        //     // Calcular a porcentagem do scroll dentro da seção, invertida
+        //     const scrollPercentage = .7 - (scrollTop - (sectionTop - window.innerHeight)) / (sectionHeight + window.innerHeight);
+
+        //     const width = Math.min(100, Math.max(0, scrollPercentage * 100));
+        //     console.log(width);
+
+        //     rectangle.style.width = `${width}%`;
+        // });
 
 
     })
