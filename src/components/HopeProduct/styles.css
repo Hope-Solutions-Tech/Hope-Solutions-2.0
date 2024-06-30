@@ -21,6 +21,9 @@
         justify-content: space-between;
         align-items: center;
         padding-inline: 100px;
+        @media (max-width: 767px) {
+            width: 90%;
+        }
     }
 
     .productsDiv {
