@@ -50,8 +50,8 @@ const HopeBreakSection = () => {
 				defaults: { ease: 'none' },
 				scrollTrigger: {
 					trigger: gridWrap,
-					start: 'top bottom+=10%',
-					end: 'bottom top-=10%',
+					start: 'top bottom',
+					end: 'bottom top',
 					scrub: true
 				}
 			});
@@ -72,12 +72,12 @@ const HopeBreakSection = () => {
 					z: () => gsap.utils.random(-3000, -1000)
 				})
 				.fromTo(gridItems, {
-					yPercent: () => gsap.utils.random(200, 4000),
+					yPercent: () => gsap.utils.random(2000, 5000),
 					rotationY: -45,
 					filter: 'brightness(200%)'
 				}, {
 					ease: 'power2',
-					yPercent: () => gsap.utils.random(-1500, -100),
+					yPercent: () => gsap.utils.random(-1000, -100),
 					rotationY: 45,
 					filter: 'brightness(0%)'
 				}, 0)

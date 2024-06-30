@@ -14,7 +14,7 @@
 	--perspective: 1500px;
 	--grid-item-ratio: 1;
 	--grid-width: 100%;
-	--grid-height: 200vh;
+	--grid-height: 150vh;
 	--grid-gap: 2vw;
 	--grid-columns: 4;
 	--grid-inner-scale: 1;
@@ -55,12 +55,8 @@ main {
 
 .content {
 	position: relative;
-	margin-bottom: 20vh;
 }
 
-.content--spacing {
-	margin-bottom: 100vh;
-}
 
 .content__title {
 	position: absolute;
@@ -117,33 +113,6 @@ main {
 	width: 250px;
 	height: 400px;
 	background-size: contain;
-	/* background-position: 50% 50%; */
-}
-
-@media screen and (min-width: 53em) {
-	.frame {
-		grid-template-columns: auto auto auto 1fr;
-		grid-template-areas: 'title prev ... sponsor';
-		align-content: space-between;
-		justify-items: start;
-		grid-gap: 2rem;
-	}
-	.frame__demos {
-		justify-self: end;
-	}
-
-	.content--outro {
-		height: 100vh;
-		justify-content: center;
-	}
-
-	.card-wrap {
-		grid-template-columns: repeat(3,250px);
-	}
-
-	body #cdawrap {
-	    justify-self: end;
-	}
 }
 
 @media (max-width: 767px) {
