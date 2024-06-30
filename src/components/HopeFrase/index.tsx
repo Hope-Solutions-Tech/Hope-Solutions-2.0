@@ -23,7 +23,6 @@ const HopeFrase = () => {
                 scrub: true,
                 onUpdate: (self) => {
                     const width = (1 - self.progress) * 100;
-                    console.log(width);
                     gsap.set(rectangle, {width: `${width}%`} )
                 }
             }
