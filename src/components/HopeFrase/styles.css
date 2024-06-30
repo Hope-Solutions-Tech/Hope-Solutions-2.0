@@ -14,11 +14,10 @@
     padding-right: 2px;
     padding-left: 1px;
     color: #FFAA47;
-    font-size: 88px;
-    line-height: 80px;
+    font-size: 12rem;
+    line-height: 11rem;
     font-weight: 700;
     text-align: center;
-    line-height: 100px;
     font-family: 'Satoshi-Variable';
   }
   
@@ -26,15 +25,15 @@
     position: absolute;
     top: 0;
     right: 0;
-    background-color: #fff;
+    background-color: #f7f7f7;
     opacity: 0.8;
     width: 100%;
-    bottom: -5px;
+    bottom: -50px;
     z-index: 2;
   }
 
   .hopeFrase{
-    background: #fff;
+    background: #f7f7f7;
     display: flex;
     justify-content: center;
     height: 70vh;

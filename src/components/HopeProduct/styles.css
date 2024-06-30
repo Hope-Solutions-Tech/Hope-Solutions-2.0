@@ -6,6 +6,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: #f7f7f7;
     background-image: url('../../assets/background-draw.png');
     background-repeat: no-repeat;
     background-size: cover;
