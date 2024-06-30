@@ -1,9 +1,8 @@
-/* eslint-disable no-mixed-spaces-and-tabs */
 import './styles.css'
 import { useEffect } from 'react';
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
-// import Lenis from 'lenis';
+import Lenis from 'lenis';
 import image1 from '../../assets/break-images/001.png';
 import image2 from '../../assets/break-images/002.png';
 import image3 from '../../assets/break-images/003.png';
@@ -26,19 +25,19 @@ const HopeBreakSection = () => {
 
 	useEffect(() => {
 
-		// const initSmoothScrolling = () => {
-		// 	const lenis = new Lenis({
-		// 		lerp: 0.1,
-		// 		smoothWheel: true,
-		// 	})
-		// 	lenis.on('scroll', () => ScrollTrigger.update());
+		const initSmoothScrolling = () => {
+			const lenis = new Lenis({
+				lerp: 0.1,
+				smoothWheel: true,
+			})
+			lenis.on('scroll', () => ScrollTrigger.update());
 
-		// 	const scrollFn = (time: number) => {
-		// 		lenis.raf(time); // Run Lenis' requestAnimationFrame method
-		// 		requestAnimationFrame(scrollFn); // Recursively call scrollFn on each frame
-		// 	};
-		// 	requestAnimationFrame(scrollFn);
-		// }
+			const scrollFn = (time: number) => {
+				lenis.raf(time); // Run Lenis' requestAnimationFrame method
+				requestAnimationFrame(scrollFn); // Recursively call scrollFn on each frame
+			};
+			requestAnimationFrame(scrollFn);
+		}
 
 		const grid = document.querySelector('.grid');
 
@@ -46,10 +45,6 @@ const HopeBreakSection = () => {
 			const gridWrap = grid.querySelector('.grid-wrap');
 			const gridItems = grid.querySelectorAll('.grid__item');
 			const gridItemsInner = [...gridItems].map(item => item.querySelector('.grid__item-inner'));
-			console.log(gridWrap);
-			console.log(gridItems);
-			console.log(gridItemsInner);
-			
 
 			const timeline = gsap.timeline({
 				defaults: { ease: 'none' },
@@ -106,7 +101,7 @@ const HopeBreakSection = () => {
 
 		window.onload = () => {
 			scroll();
-			// initSmoothScrolling();
+			initSmoothScrolling();
 		};
 		return () => {
 			ScrollTrigger.getAll().forEach(trigger => trigger.kill());
