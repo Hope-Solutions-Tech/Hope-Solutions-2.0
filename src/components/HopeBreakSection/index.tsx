@@ -46,6 +46,10 @@ const HopeBreakSection = () => {
 			const gridWrap = grid.querySelector('.grid-wrap');
 			const gridItems = grid.querySelectorAll('.grid__item');
 			const gridItemsInner = [...gridItems].map(item => item.querySelector('.grid__item-inner'));
+			console.log(gridWrap);
+			console.log(gridItems);
+			console.log(gridItemsInner);
+			
 
 			const timeline = gsap.timeline({
 				defaults: { ease: 'none' },
