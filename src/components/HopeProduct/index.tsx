@@ -1,39 +1,63 @@
 import './styles.css'
 import Product from "./Product";
-import aiIcon from "../../assets/ai-icon.png";
+import comunicationIcon from "../../assets/comunication-icon.png";
 import gpsIcon from "../../assets/gps-icon.png";
-import noteIcon from "../../assets/note-icon.png";
+import efetividadeIcon from "../../assets/efetividade-icon.png";
 import paperIcon from "../../assets/paper-icon.png";
-import phoneIcon from "../../assets/phone-icon.png";
-import mockBuddy from "../../assets/MockupBuddy.jpg"
+import errorIcon from "../../assets/error-icon.png";
+import heartIcon from "../../assets/heart-icon.png";
+import baseMockup from "../../assets/phone-base.png"
+import phoneMockup from "../../assets/phone-mockup.png"
+import { useEffect, useRef } from 'react';
+import gsap from 'gsap';
 
 
 const HopeProduct = () => {
+
+    const phoneRef = useRef<HTMLImageElement>(null);
+
+    useEffect(() => {
+        const phone = phoneRef.current;
+        if (!phone) return;
+
+        gsap.to(phone, {
+            duration: 1.5,
+            y: 30,
+            repeat: -1,
+            yoyo: true,
+            ease: "sine.inOut"
+        });
+    }, [])
+
     return (
         <section className='productSection'>
             <h1 className="productSectionTitle">O que fazemos?</h1>
             <div className='productContent'>
                 <div className='productsDiv'>
                     <ul className='productsUl'>
-                        <Product image={phoneIcon}>
-                            Aplicativo Mobile que permite o socorrista passar informações assertivas à sede.
+                        <Product image={comunicationIcon}>
+                            Comunicação em Tempo Real
                         </Product>
-                        <Product image={gpsIcon}>
-                            Geolocalização em tempo real.
-                        </Product>
-                        <Product image={noteIcon}>
-                            Aplicativo Desktop que auxilia o médico especializado a processar com mais facilidade, agilidade e confiabilidade o tipo de atendimento que está vindo pela ambulância .
-                        </Product>
-                        <Product image={aiIcon}>
-                            Inteligência artificial preditiva para auxiliar em diagnósticos.
+                        <Product image={efetividadeIcon}>
+                            Aumento na efetividade do tratamento
                         </Product>
                         <Product image={paperIcon}>
-                            Capacitação de pessoas com novos protocolos.
+                            Informações Cruciais
+                        </Product>
+                        <Product image={gpsIcon}>
+                            Sistema de Geolocalização
+                        </Product>
+                        <Product image={errorIcon}>
+                            Redução de erros
+                        </Product>
+                        <Product image={heartIcon}>
+                            Aumento na chance de salvar uma vida
                         </Product>
                     </ul>
                 </div>
                 <div className='productsImg'>
-                    <img src={mockBuddy} alt="" />
+                    <img src={phoneMockup} alt="" ref={phoneRef} />
+                    <img src={baseMockup} alt="" />
                 </div>
             </div>
         </section>

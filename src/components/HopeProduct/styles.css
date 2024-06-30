@@ -2,27 +2,30 @@
     width: 100%;
     max-width: 100vw;
     padding-block: 50px;
-    height: 100%;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 100px;
+    background-image: url('../../assets/background-draw.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 10%;
     .productSectionTitle {
         text-align: center;
         font-size: 8rem;
-        font-family: 'Satoshi-Variable';
+        font-family: 'Satoshi-Bold';
         color: #002021;
     }
     .productContent {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
         padding-inline: 100px;
     }
 
     .productsDiv {
         display: flex;
-        width: 40%;
+        width: 50%;
         height: 50vh;
         .productsUl {
             display: flex;

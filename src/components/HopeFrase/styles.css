@@ -1,55 +1,3 @@
-/* .fraseSection {
-    height: 70vh;
-    padding-block: 80px;
-    width: 100%;
-    max-width: 100vw;
-
-    
-    .fraseAnimated {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        font-size: 10rem;
-        font-family: '';
-        padding-inline: 150px;
-        .fraseCinza {
-            opacity: .12;
-        }
-        .fraseVerde {
-            transition: .5s;
-            position: absolute;
-            color: #002021;
-            width: 0%;
-            overflow-x: hidden;
-            white-space: nowrap;
-        }
-    }
-}
-
-
-
-@media (max-width: 500px) {
-    .fraseSection {
-        height: 50vh;
-        padding-block: 20px;
-        width: 100%;
-        max-width: 100vw;
-    
-        .fraseResumo {
-            text-align: center;
-            font-size: 3rem;
-            color: #696969;
-        }
-        .fraseAnimated {
-            flex-direction: row;
-            align-items: center;
-            font-size: 3.5rem;
-            padding-inline: 20px;
-            
-        }
-    }
-} */
-
 .fraseResumo {
     text-align: center;
     font-size: 2rem;
@@ -65,7 +13,7 @@
     margin-right: auto;
     padding-right: 2px;
     padding-left: 1px;
-    color: #002021;
+    color: #FFAA47;
     font-size: 88px;
     line-height: 80px;
     font-weight: 700;
