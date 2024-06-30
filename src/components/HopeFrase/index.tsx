@@ -31,7 +31,7 @@ const HopeFrase = () => {
     return (
         <section className='hopeFrase'>
             <div className="fraseResumo">
-                EM RESUMO...
+                Em resumo...
             </div>
             <div className="line">
                 Do chamado à chegada, <br/> cuidando de cada segundo
