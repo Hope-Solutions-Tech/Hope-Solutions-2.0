@@ -31,7 +31,7 @@ const HopeProduct = () => {
 
     return (
         <section className='productSection'>
-            <h1 className="productSectionTitle">O que fazemos?</h1>
+            <h2 className="productSectionTitle">O que fazemos?</h2>
             <div className='productContent'>
                 <div className='productsDiv'>
                     <ul className='productsUl'>
@@ -56,8 +56,8 @@ const HopeProduct = () => {
                     </ul>
                 </div>
                 <div className='productsImg'>
-                    <img src={phoneMockup} alt="" ref={phoneRef} />
-                    <img src={baseMockup} alt="" />
+                    <img src={phoneMockup} alt="mockup do aplicativo mobile com animação de subir e descer" title='celular com aplicativo' ref={phoneRef} />
+                    <img src={baseMockup} alt="base do celular" title='base do celular'/>
                 </div>
             </div>
         </section>

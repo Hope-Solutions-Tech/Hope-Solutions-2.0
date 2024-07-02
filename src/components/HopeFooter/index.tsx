@@ -7,40 +7,46 @@ import mockupPhones from '../../assets/two-phones-mockup.png'
 
 const HopeFooter = () => {
     
+    const onContactClick = () => {
+        window.open('https://api.whatsapp.com/send?phone=5511976893853&text=Ol%C3%A1', '_blank')
+    }
+
     return (
         <footer id='hopeFooter'>
             <div className='footerHope'>
                 <div className="mockupDiv">
-                    <img src={mockupPhones} alt="" />
+                    <img src={mockupPhones} alt="imagem de dois celulares com o aplicativo da vitse" title='aplicativo vitse'/>
                 </div>
                 <div className='footerContent'>
-                    <h1>Revolucione o atendimento de emergência com a <span className='vitseFooterSpan'>Vitse</span></h1>
-                    <button className='contactButton'>
-                        <a href="https://api.whatsapp.com/send?phone=5511976893853&text=Ol%C3%A1" target='blank'>Entre em contato</a>
+                    <h2>Revolucione o atendimento de emergência com a <span className='vitseFooterSpan'>Vitse</span></h2>
+                    <button className='contactButton' onClick={onContactClick}>
+                        {/* <a href="https://api.whatsapp.com/send?phone=5511976893853&text=Ol%C3%A1" target='blank'> */}
+                        Entre em contato
+                        {/* </a> */}
                     </button>
                     <ul>
                         <li>
                             <a className='contactLink' href="https://www.instagram.com/hopesolutions_/">
                                 <span>@vitseoficial</span>
-                            <img src={instagramIcon}/>
+                            <img src={instagramIcon} alt='ícone de instagram' title='instagram'/>
                             </a>
                         </li>
                         <li>
                             <a className='contactLink' href="https://www.linkedin.com/company/hope-solutions-health">
                                 <span>vitseoficial</span>
-                                <img src={linkedinIcon} alt="" />
+                                <img src={linkedinIcon} alt="ícone do linkedin" title='linkedin' />
                             </a>
                         </li>
                         <li>
                             <a className='contactLink' href="https://api.whatsapp.com/send?phone=5511976893853&text=Ol%C3%A1,%20vim%20pelo%20site%20da%20HopeSolutions">
                                 <span>+55 11 97689-3953</span>
-                                <img src={telIcon} alt="" />
+                                <img src={telIcon} alt="ícone de telefone" title='whatsapp' />
                             </a>
                         </li>
-                        <li>
+                        <li className='display-none'>
                             <a className='contactLink' href="mailto:hopesolutions.tech@gmail.com?subject=Contato%20-%20Hope%20Solutions">
                                 <span>contato@vitse.com.br</span>
-                                <img src={emailIcon} alt="" />
+                                <img src={emailIcon} alt="ícone de email" title='email'/>
                             </a>
                         </li>
                     </ul>

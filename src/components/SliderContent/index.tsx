@@ -31,7 +31,7 @@ const SliderContent = ({ title, children }: SliderContentProps) => {
 
     return (
     <div className={`sliderDiv ${visible ? 'visible' : ''}`} ref={ref}>
-        <h1>{title}</h1>
+        <h3>{title}</h3>
         <p>{children}</p>
     </div>
     )

@@ -24,8 +24,8 @@ const HopeSolution = () => {
     return (
         <section className='hope-solution-section'>
             <div className='stickyContainer'>
-                <h1>Nossa Solução</h1>
-                <img src={spinningLogo} alt="" ref={imageRef}/>
+                <h2>Nossa Solução</h2>
+                <img src={spinningLogo} alt="logo da vitse com animação de rodar" title='logo da vitse' ref={imageRef}/>
             </div>
             <div className='sliderContainer'>
                 <SliderContent title='Comunicação em Tempo Real'>

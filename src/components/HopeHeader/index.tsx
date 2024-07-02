@@ -30,14 +30,14 @@ const HopeHeader = () => {
     
     return (
         <header className='hope-header'>
-            <a href='' className='hopeHome'>
-                <img src={logoHeader} alt="" />
+            <button className='hopeHome'>
+                <img src={logoHeader} alt="logo da vitse" title='logo' />
                 <h2>Vitse</h2>
-            </a>
+            </button>
             <nav>
                 <ul>
                     <li className='contactLi'>
-                        <a href="">Contato</a>
+                        <button>Contato</button>
                     </li>
                 </ul>
             </nav>

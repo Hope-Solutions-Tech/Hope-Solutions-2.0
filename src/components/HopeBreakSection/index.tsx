@@ -149,7 +149,7 @@ const HopeBreakSection = () => {
 						<div className="grid__item"><div className="grid__item-inner" style={{ backgroundImage: `url(${image5})` }}></div></div>
 					</div>
 				</div>
-				<h3 className="content__title">Conectando vidas à<br />assistência em tempo real.</h3>
+				<h2 className="content__title">Conectando vidas à<br />assistência em tempo real.</h2>
 			</section>
 	);
 }
