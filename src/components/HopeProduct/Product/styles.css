@@ -3,11 +3,11 @@
     align-items: center;
     gap: 10px;
     font-family: 'Satoshi-Bold';
-    font-size: 3.5rem;
+    font-size: 2.8rem;
     color: #24464F;
     img {
-        width: 45px;
-        height: 45px;
+        width: 50px;
+        height: 50px;
     }
 }
 

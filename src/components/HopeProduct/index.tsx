@@ -56,7 +56,7 @@ const HopeProduct = () => {
                     </ul>
                 </div>
                 <div className='productsImg'>
-                    <img src={phoneMockup} alt="mockup do aplicativo mobile com animação de subir e descer" title='celular com aplicativo' ref={phoneRef} />
+                    <img src={phoneMockup} alt="mockup do aplicativo mobile com animação de subir e descer" title='celular com aplicativo' ref={phoneRef} className='phone'/>
                     <img src={baseMockup} alt="base do celular" title='base do celular'/>
                 </div>
             </div>
