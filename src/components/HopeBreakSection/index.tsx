@@ -3,21 +3,21 @@ import { useEffect } from 'react';
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 import Lenis from 'lenis';
-import image1 from '../../assets/break-images/001.png';
-import image2 from '../../assets/break-images/002.png';
-import image3 from '../../assets/break-images/003.png';
-import image4 from '../../assets/break-images/004.png';
-import image5 from '../../assets/break-images/005.png';
-import image6 from '../../assets/break-images/006.png';
-import image7 from '../../assets/break-images/007.png';
-import image8 from '../../assets/break-images/008.png';
-import image9 from '../../assets/break-images/009.png';
-import image10 from '../../assets/break-images/010.png';
-import image11 from '../../assets/break-images/011.png';
-import image12 from '../../assets/break-images/012.png';
-import image13 from '../../assets/break-images/013.png';
-import image14 from '../../assets/break-images/014.png';
-import image15 from '../../assets/break-images/015.png';
+import image1 from '../../assets/break-images/001.webp';
+import image2 from '../../assets/break-images/002.webp';
+import image3 from '../../assets/break-images/003.webp';
+import image4 from '../../assets/break-images/004.webp';
+import image5 from '../../assets/break-images/005.webp';
+import image6 from '../../assets/break-images/006.webp';
+import image7 from '../../assets/break-images/007.webp';
+import image8 from '../../assets/break-images/008.webp';
+import image9 from '../../assets/break-images/009.webp';
+import image10 from '../../assets/break-images/010.webp';
+import image11 from '../../assets/break-images/011.webp';
+import image12 from '../../assets/break-images/012.webp';
+import image13 from '../../assets/break-images/013.webp';
+import image14 from '../../assets/break-images/014.webp';
+import image15 from '../../assets/break-images/015.webp';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -109,7 +109,6 @@ const HopeBreakSection = () => {
 	}, []);
 
 	return (
-		<main>
 			<section className="content">
 				<div className="grid grid--2">
 					<div className="grid-wrap">
@@ -143,12 +142,15 @@ const HopeBreakSection = () => {
 						<div className="grid__item"><div className="grid__item-inner" style={{ backgroundImage: `url(${image13})` }}></div></div>
 						<div className="grid__item"><div className="grid__item-inner" style={{ backgroundImage: `url(${image14})` }}></div></div>
 						<div className="grid__item"><div className="grid__item-inner" style={{ backgroundImage: `url(${image15})` }}></div></div>
-						
+						<div className="grid__item"><div className="grid__item-inner" style={{ backgroundImage: `url(${image1})` }}></div></div>
+						<div className="grid__item"><div className="grid__item-inner" style={{ backgroundImage: `url(${image2})` }}></div></div>
+						<div className="grid__item"><div className="grid__item-inner" style={{ backgroundImage: `url(${image3})` }}></div></div>
+						<div className="grid__item"><div className="grid__item-inner" style={{ backgroundImage: `url(${image4})` }}></div></div>
+						<div className="grid__item"><div className="grid__item-inner" style={{ backgroundImage: `url(${image5})` }}></div></div>
 					</div>
 				</div>
 				<h3 className="content__title">Conectando vidas à<br />assistência em tempo real.</h3>
 			</section>
-		</main>
 	);
 }
 
