@@ -86,6 +86,11 @@
             }
         }
         
+
+        .productsImg {
+            width: 90%;
+        }
+
         .productsImg img{
             width: 100%;
         }
